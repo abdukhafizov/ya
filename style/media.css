@@ -1,0 +1,330 @@
+.hamburger {
+    display: none;
+}
+
+@media(max-width:1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .follow {
+        margin-left: 0;
+    }
+
+
+
+    .categ_promo {
+        grid-template-columns: repeat(2, 275px);
+        margin-left: 19%;
+    }
+
+    .categ h2 {
+        margin-left: 19%;
+    }
+
+    .center {
+        padding-top: 230px;
+    }
+}
+
+@media(max-width:992px) {
+    .container {
+        width: 720px;
+    }
+
+    .follow {
+        margin-left: 0;
+    }
+
+    .first_footer a {
+        font-size: 15px;
+    }
+
+    .categ_promo {
+        margin-left: 9%;
+    }
+
+    .categ h2 {
+        margin-left: 9%;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    .right svg:nth-child(1) {
+        display: none;
+    }
+
+    .about_logo {
+        width: 135px;
+    }
+
+
+    .about_us {
+        justify-content: space-evenly;
+    }
+
+    input {
+        width: 540px;
+
+
+    }
+
+    .follow {
+        width: 540px;
+        height: 50px;
+        margin-left: 0;
+    }
+
+    .left {
+        /* display: none; */
+        position: fixed;
+        right: -100%;
+        top: 0;
+        bottom: 0;
+        z-index: 10;
+        background: rgb(119, 119, 119);
+        background: linear-gradient(90deg, rgba(119, 119, 119, 0) 0%, rgba(136, 136, 136, 0.31425070028011204) 30%, rgba(133, 133, 133, 1) 100%);
+        backdrop-filter: blur(6px);
+        flex-direction: column;
+        padding: 50px;
+        transition: 0.5s ease-in;
+    }
+
+    .left.open {
+        right: 0;
+    }
+
+    .hamburger {
+        background: none;
+        border: none;
+        display: block;
+    }
+
+    form p {
+        font-size: 15px;
+    }
+
+    .ending {
+        grid-template-columns: repeat(2, 180px);
+        margin-left: 14%;
+    }
+
+
+}
+
+@media(max-width:664px) {
+    .categ_promo {
+        margin-left: 6%;
+        grid-template-columns: repeat(2, 240px);
+        gap: 5px;
+    }
+
+
+
+    .right img:nth-child(2) {
+        display: none;
+    }
+
+    .about_logo {
+        width: 163px;
+    }
+
+    .categ h2 {
+        margin-left: 6%;
+    }
+
+    form p {
+        font-size: 18px;
+    }
+
+
+
+    .item img {
+
+        width: 230px;
+    }
+
+    input {
+        width: 460px;
+    }
+
+    .follow {
+        width: 460px;
+    }
+
+
+
+}
+
+@media(max-width:576px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .about {
+        background-image: url(../img/Yanki\ \(51\)\ 1.png);
+    }
+
+
+    .about_logo svg {
+        width: 100px;
+        height: 28px;
+        flex-shrink: 0;
+        margin-left: 29px;
+    }
+
+    .item img {
+        width: 100%;
+    }
+
+    .item:nth-child(3) {
+        display: none;
+    }
+
+    .item:nth-child(4) {
+        display: none;
+    }
+
+    .categ_promo {
+        margin-left: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categ h2 {
+        margin-left: 0;
+    }
+
+
+
+    input {
+        width: 335px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    .follow {
+
+        width: 335px;
+        padding: 12px 81px 11px 81px;
+
+        gap: 10px;
+    }
+
+    form p {
+
+        color: #252525;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+
+    form h3 {
+        font-size: 24px;
+    }
+
+    .ending {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+        margin-left: 20px;
+    }
+
+    .categ h2 {
+        margin-left: 20px;
+    }
+
+
+    .item:hover {
+        transition: none;
+        transform: none;
+    }
+
+    input:hover {
+        transition: none;
+        transform: none;
+    }
+
+
+
+    .follow:active {
+        background-color: none;
+        color: none;
+        transition: none;
+        transform: none;
+        box-shadow: none;
+    }
+
+    button:hover {
+        transition: none;
+        transform: none;
+    }
+
+
+    a:hover {
+        color: none;
+        transition: none;
+        transform: none;
+    }
+
+
+    .right svg:hover {
+        transition: none;
+        transform: none;
+    }
+
+
+    .item:hover {
+        transition: none;
+        transform: none;
+    }
+
+    .right {
+        gap: 3px;
+    }
+
+    .collecton {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:380px) {
+    .container {
+        width: 100%;
+    }
+
+    .item:nth-child(2) {
+        display: none;
+    }
+
+    .categ_promo {
+        grid-template-columns: repeat(1, 166px);
+    }
+
+    .item{
+        width: 233px;
+    }
+    .item img {
+        width: 233px;
+        height: 378px;
+    }
+
+    .subtitle{
+        width: 233px;
+    }
+
+    input{
+        width: 270px;
+    }
+
+    .follow {
+        width: 270px;
+        height: 42px;
+    }
+}

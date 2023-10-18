@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+header {
+    padding: 34px 0px 0 0px;
+}
+
+
+.about {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_us a {
+    color: #FFF;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.left {
+    display: flex;
+    gap: 25px;
+}
+
+.right {
+    display: flex;
+    gap: 30px;
+    height: 25px;
+}
+
+.center hr {
+    width: 120px;
+    height: 1px;
+    flex-shrink: 0;
+    color: white;
+}
+
+.collecton {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.center a {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.center {
+    padding-top: 329px;
+}
+
+.categ {
+    padding-top: 100px;
+}
+
+.categ_promo {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.item {
+    position: relative;
+    cursor: pointer;
+}
+
+.subtitle {
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    background: rgba(224, 190, 162, 0.75);
+    backdrop-filter: blur(3px);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    padding-top: 8px;
+
+    position: absolute;
+    bottom: 4px;
+}
+
+form {
+    padding-top: 100px;
+    text-align: center;
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+
+    background: #FFF;
+    color: rgba(37, 37, 37, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    border: 0.5px solid #252525;
+}
+
+form h3 {
+    color: #252525;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.follow {
+    background: #E0BEA2;
+
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-top: 20px;
+    margin-left: 0;
+
+    width: 600px;
+    padding: 16px 81px 17px 81px;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.first_footer a{
+    color: #252525;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: 30px;
+text-decoration: none;
+}
+
+h4{
+    color: #252525;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.ending{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 47px;
+}
+svg{
+    margin-right: 10px;
+}
+
+input:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+input:not(:hover) {
+    transition: 1s;
+}
+
+.follow:active {
+    background-color: rgba(255, 255, 255, 0.696);
+    color: #b29b7c;
+    transform: scale(1);
+    box-shadow: inset 4px 2px 3px rgba(0, 0, 0, 0.347);
+}
+
+button:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+button:not(:hover) {
+    transition: 1s;
+}
+ a:hover {
+    transition: 0.5s;
+    color: #E0BEA2;
+    transform: scale(1.1);
+}
+
+ a:not(:hover) {
+    transition: 0.3s;
+}
+
+.right svg:hover {
+    transition: 0.5s;
+    transform: scale(1.4);
+}
+
+.right svg:not(:hover) {
+    transition: 1s;
+}
+
+.item:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.item:not(:hover) {
+    transition: 1s;
+}
+
+.burger{
+    /* width: 555px;
+    background: #FFF; */
+    background: none;
+    border: none;
+ 
+ 
+    display: block;
+}
+
+.right svg{
+    cursor: pointer;
+}
+
+
+
+/* .center p:hover {
+    transition: 0.5s;
+
+    transform: scale(1.3);
+} */
+    
